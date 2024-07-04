@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(206, 204, 201);
+}
+.header{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url(image2.jpg);
+}
+#logo{
+    margin-top: 15px;
+    margin-left: 90px;
+    display: flex;
+    font-size: 30px;
+    font-weight: 800;
+}
+.header p{
+    margin-left: 35px;
+    font-size: larger;
+    color: rgb(93, 91, 88);
+    font-weight: 700;
+    margin-top: 25px;
+}
+#navlist{
+    margin-top: 20px;
+    margin-left: 52%;
+}
+#navlist a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+
+}
+button{
+    color: red;
+    font-weight: 700;
+    font-size: large;
+}
+#about{
+    padding: 5px 8px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+#navlist a:hover{
+    color: rgb(63, 83, 24);
+}
+.text{
+ font-size: 30px;
+ margin-left: 100px;
+ margin-top: 50px;
+}
+#search{
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 10px 12px;
+}
+.searchbar{
+    margin-left: 104px;
+    padding: 10px 50px;
+    font-size: large;
+}
